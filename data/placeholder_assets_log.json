@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-10-30T11:40:37.237Z",
+  "purpose": "Placeholder / Royalty-Free Fake Stock Images for Development & Client Preview (to be replaced with BWR actual photos upon completion)",
+  "totalImages": 9,
+  "images": [
+    {
+      "name": "hero_bg.webp",
+      "label": "Hero Background (Gym Dumbbells & Racks)",
+      "sourceUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80",
+      "sizeBytes": 266751,
+      "status": "SUCCESS"
+    },
+    {
+      "name": "bey-cover-Bi8oV6yG.webp",
+      "label": "About Section Cover (Coach guiding client in gym)",
+      "sourceUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1600&q=80",
+      "sizeBytes": 175522,
+      "status": "SUCCESS"
+    },
+    {
+      "name": "emp-cover-BGgVzf6W.webp",
+      "label": "Why Choose Us Cover (Functional fitness workout)",
+      "sourceUrl": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1600&q=80",
+      "sizeBytes": 317387,
+      "status": "SUCCESS"
+    },
+    {
+      "name": "faq-cover-cFMBori5.webp",
+      "label": "FAQ Section Cover (Athletic box jump training)",
+      "sourceUrl": "https://images.unsplash.com/photo-1517963879433-6ad2b056d712?auto=format&fit=crop&w=1600&q=80",
+      "sizeBytes": 391944,
+      "status": "SUCCESS"
+    },
+    {
+      "name": "contact-cover-BOE1McQ3.webp",
+      "label": "Contact Form Cover (Trainer & client celebrating high-five)",
+      "sourceUrl": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?auto=format&fit=crop&w=1600&q=80",
+      "sizeBytes": 178409,
+      "status": "SUCCESS"
+    },
+    {
+      "name": "coach_pavan.webp",
+      "label": "Coach 1 Placeholder - Founder & Master Coach",
+      "sourceUrl": "https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=800&q=80",
+      "sizeBytes": 130472,
+      "status": "SUCCESS"
+    },
+    {
+      "name": "coach_anand.webp",
+      "label": "Coach 2 Placeholder - Co-Founder & Coach",
+      "sourceUrl": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=800&q=80",
+      "sizeBytes": 68834,
+      "status": "SUCCESS"
+    },
+    {
+      "name": "coach_arun.webp",
+      "label": "Coach 3 Placeholder - Senior Coach",
+      "sourceUrl": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=800&q=80",
+      "sizeBytes": 73274,
+      "status": "SUCCESS"
+    },
+    {
+      "name": "coach_aleem.webp",
+      "label": "Coach 4 Placeholder - Coach",
+      "sourceUrl": "https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=800&q=80",
+      "sizeBytes": 196392,
+      "status": "SUCCESS"
+    }
+  ]
+}

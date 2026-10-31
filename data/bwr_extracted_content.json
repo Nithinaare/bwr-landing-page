@@ -1,0 +1,217 @@
+{
+  "sourceUrl": "https://www.builtwithresilience.com/home",
+  "retrievedAt": "2026-10-30T16:57:00.000Z",
+  "companyProfile": {
+    "name": "Built With Resilience",
+    "shortName": "BWR",
+    "established": 2018,
+    "reach": "Worldwide (3,000+ transformations)",
+    "trainerCount": "50+ certified coaches",
+    "tagline": "Elevate your wellness with customized strategies that strengthen both body and mind."
+  },
+  "sections": {
+    "hero": {
+      "headline": "GET READY TO TRANSFORM NOW",
+      "subheadline": "Elevate your wellness with customized strategies that strengthen both body and mind.",
+      "ctaText": "TRANSFORM NOW",
+      "action": "#connect"
+    },
+    "about": {
+      "title": "About Built With Resilience",
+      "verbatimText": "Built With Resilience, backed by a strong team of 50+ expert trainers, has successfully transformed over 3,000 clients worldwide. Since its inception in 2018, our mission has remained simple and focused: to deliver real, results-driven fitness solutions that cut through the noise and misinformation in the industry. We’re committed to providing a reliable, personalized training experience—ensuring every individual receives the right support and guidance needed to achieve their goals efficiently and sustainably.",
+      "ctaText": "EXPLORE PROGRAMS"
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us",
+      "subtitle": "What makes us different and why our clients continue to choose our fitness programs",
+      "pillars": [
+        {
+          "title": "50+ Expert Trainers",
+          "description": "Coaches who get you. Dedicated, certified master trainers offering personalized 1-on-1 guidance built completely around your body, lifestyle, and goals."
+        },
+        {
+          "title": "3,000+ Transformations",
+          "description": "Since 2018, proven real results across professionals, working parents, and athletes worldwide through sustainable fitness and lifestyle habits."
+        },
+        {
+          "title": "Science-Backed Nutrition",
+          "description": "We cut through fitness misinformation. Structured strength progressions and flexible nutrition without starvation or extreme restrictions."
+        }
+      ]
+    },
+    "appShowcase": {
+      "title": "Your Fitness Journey, Simplified",
+      "verbatimText": "Discover the power of our app to track workouts, monitor progress, and access personalized fitness plans—all in one place. Designed for convenience and results, our app is your ultimate fitness companion.",
+      "features": [
+        {
+          "name": "Personalized workout plans",
+          "description": "Workouts tailored to your fitness level, goals, and equipment, designed by your dedicated master coach."
+        },
+        {
+          "name": "Progress tracking and analytics",
+          "description": "Track your workouts, monitor progressive overload, body composition metrics, and weekly consistency trends."
+        },
+        {
+          "name": "Customized Nutrition Guidance",
+          "description": "Structured macronutrient targets and meal options crafted around your food preferences, culture, and lifestyle."
+        },
+        {
+          "name": "Daily Habit & Water Tracking",
+          "description": "Build habits that stick for life. Log daily hydration, step targets, sleep quality, and recovery readiness."
+        },
+        {
+          "name": "In-App Direct Coach Messaging",
+          "description": "Real 1-on-1 access. Message your coach directly whenever you need guidance, travel swaps, or motivation."
+        },
+        {
+          "name": "Exercise Video Demonstrations",
+          "description": "Clear video tutorials for every movement to ensure correct posture, safe execution, and zero injury risk."
+        }
+      ]
+    },
+    "trainings": {
+      "title": "Our Trainings",
+      "subtitle": "Tailored Workouts, Expert Nutrition, and Comprehensive Programs to Meet All Your Fitness Needs",
+      "programs": [
+        {
+          "name": "Online Coaching",
+          "tagline": "Your Path to Fitness Success In fast-paced world.",
+          "description": "Personalized workout programs, custom nutrition blueprints, and weekly 1-on-1 accountability wherever you live.",
+          "category": "Flagship / Remote"
+        },
+        {
+          "name": "1-1 Offline Coaching",
+          "tagline": "Elevate Your Fitness with Personalized Coaching.",
+          "description": "Hands-on personal training sessions with direct posture correction, tactile coaching, and focused intensity.",
+          "category": "In-Person"
+        },
+        {
+          "name": "Nutrition Consulting",
+          "tagline": "Fuel Your Body, Transform Your Health.",
+          "description": "Evidence-based nutritional plans crafted around your food choices, dietary restrictions, metabolism, and lifestyle.",
+          "category": "Nutrition"
+        },
+        {
+          "name": "Corporate Wellness Programs",
+          "tagline": "Empowering teams with health and wellness solutions.",
+          "description": "Workplace posture workshops, team fitness challenges, ergonomic audits, and executive health sessions.",
+          "category": "Corporate"
+        },
+        {
+          "name": "App Based Programs",
+          "tagline": "Your Fitness Companion Anytime, Anywhere.",
+          "description": "Flexible routines with dynamic tracking, progress analytics, and guidance right from your mobile device.",
+          "category": "Self-Paced"
+        }
+      ]
+    },
+    "coaches": [
+      {
+        "name": "Pavan Teyari",
+        "role": "Founder & Master Coach",
+        "badge": "FOUNDER",
+        "experience": "8+ years",
+        "tags": ["STRENGTH", "REHAB", "LIFESTYLE"],
+        "bio": "Founder and Master Coach with over 8 years of experience. Specializes in injury rehabilitation, sustainable strength building, and long-term client lifestyle transformations.",
+        "image": "assets/coach_pavan.webp"
+      },
+      {
+        "name": "Anand",
+        "role": "Co-Founder & Coach",
+        "badge": "CO-FOUNDER",
+        "experience": "7+ years",
+        "tags": ["HYPERTROPHY", "FAT LOSS", "HABITS"],
+        "bio": "Co-Founder and Transformation Coach. Renowned for structured deadlift and squat progressions, personalized nutrition plans, and helping busy executives maintain consistency.",
+        "image": "assets/coach_anand.webp"
+      },
+      {
+        "name": "Arun Vishwa",
+        "role": "Senior Coach",
+        "badge": "SENIOR COACH",
+        "experience": "5+ years",
+        "tags": ["MOBILITY", "CONDITIONING", "POSTURE"],
+        "bio": "Senior Coach with a passion for functional movement, joint mobility, athletic conditioning, and posture correction for desk professionals.",
+        "image": "assets/coach_arun.webp"
+      },
+      {
+        "name": "Aleem",
+        "role": "Transformation Coach",
+        "badge": "COACH",
+        "experience": "4+ years",
+        "tags": ["ENDURANCE", "NUTRITION", "MOTIVATION"],
+        "bio": "Dedicated fitness and nutrition coach helping clients build sustainable daily fitness routines, conquer plateaus, and achieve peak vitality.",
+        "image": "assets/coach_aleem.webp"
+      }
+    ],
+    "reassuranceBanner": {
+      "headline": "Still Not Sure?",
+      "subheadline": "Read real stories from real people who have transformed their lives with Built With Resilience. Over 3,000 clients worldwide have proven our sustainable methods.",
+      "ctaText": "READ ALL TESTIMONIALS"
+    },
+    "testimonials": [
+      {
+        "clientName": "JC",
+        "assignedCoach": "Coach Anand",
+        "coachRole": "Personal Trainer",
+        "review": "I've been training with Anand for a while now, and the journey so far has been nothing short of incredible. From personalized workouts to constant support and motivation, every session feels like a step closer to my goals. I can already see changes—not just physically, but mentally too. The energy, strength, and confidence I've gained so far keep me pushing harder every day. Thank you Anand for guiding me through this journey. Excited to see where we'll go from here."
+      },
+      {
+        "clientName": "Jaiyetri",
+        "assignedCoach": "Coach Pavan",
+        "coachRole": "Personal Trainer",
+        "review": "Training with Pavan has been one of the best decisions I've made for myself. From day one, the focus has been on building strength and creating sustainable habits, not just chasing quick results. Every session challenges me and the support I've received has kept me consistent even on tough days. I'm already seeing changes in my energy and overall fitness. Thank you Pavan for believing in me and pushing me to be better every day"
+      },
+      {
+        "clientName": "Pranay",
+        "assignedCoach": "Coach Anand",
+        "coachRole": "Personal Trainer",
+        "review": "As a busy entrepreneur, finding time for fitness was always a challenge, and despite working with multiple trainers in the past, I struggled to see consistent progress. But training with Anand has been a game-changer. The focus on structured strength training, especially improving my deadlifts and squats paired with a nutrition plan tailored to my busy lifestyle. If you're looking for a coach who focuses on sustainable results, personalized plans, and true progress, I highly recommend Anand."
+      },
+      {
+        "clientName": "Sunanda",
+        "assignedCoach": "Coach Pavan",
+        "coachRole": "Personal Trainer",
+        "review": "When I first started training with Pavan, I was struggling to even walk properly due to a leg injury. Every step felt challenging, and I had almost given up hope of regaining my strength. But with his expertise, patience, and a carefully structured training plan focused on recovery and gradual strength building, I highly recommend Pavan and his team. This journey has been transformative, and I'm so grateful for it!"
+      },
+      {
+        "clientName": "Rekha",
+        "assignedCoach": "Coach Pavan",
+        "coachRole": "Rehab Specialist",
+        "review": "When I first consulted with my doctor, I was told I couldn't lift weights due to multiple injuries. I thought my fitness goals were over. But then I started training with Pavan, everything changed. With careful, personalized training and a focus on rehabilitation, I highly recommend Pavan and his team. This journey has not only restored my physical strength but also my confidence"
+      },
+      {
+        "clientName": "Aishwarya",
+        "assignedCoach": "Coach Pavan",
+        "coachRole": "Master Coach",
+        "review": "When I first started strength training with Pavan, I didn't know what to expect. But with consistent effort, the right guidance, and a well-structured plan, I began seeing real improvements in my strength. From lifting heavier to feeling more powerful in every movement, strength training has transformed not just my body, but my mindset. I'm more confident, energized, and proud of the progress I've made."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What kind of programs do you offer?",
+        "answer": "We offer comprehensive fitness solutions including Online Coaching, 1-1 In-Person Offline Coaching, Clinical & Sports Nutrition Consulting, Corporate Wellness Programs, and App-Based Self-Paced Programs. Each program is completely customized to your personal goals and lifestyle."
+      },
+      {
+        "question": "Do I need any prior fitness experience?",
+        "answer": "Not at all. Whether you are a total beginner, rehabilitating from an injury, or restarting after years, our master coaches build your program from the ground up, teaching proper form, pacing, and progressive overload safely."
+      },
+      {
+        "question": "How does the coaching work online?",
+        "answer": "Your dedicated coach builds your custom plan inside our mobile app and tracks your workouts, nutrition, and habits. You receive weekly check-ins, form feedback through video analysis, and direct chat support whenever questions arise."
+      },
+      {
+        "question": "Can I follow the program if I travel or have a changing schedule?",
+        "answer": "Yes! We build resilient routines that adapt to real life. Whether traveling for business, managing late work shifts, or dining out with clients, your coach provides bodyweight hotel workouts and dining guidance on the go."
+      },
+      {
+        "question": "How do I get started with Built With Resilience?",
+        "answer": "Simply fill out the consultation form below or message us directly on WhatsApp at +91 8008884655. A coach will review your history, discuss your goals, and structure your customized onboarding plan."
+      }
+    ],
+    "contact": {
+      "whatsapp": "+91 8008884655",
+      "email": "info@builtwithresilience.com",
+      "primaryAction": "https://wa.me/918008884655"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+node_modules/
+.playwright-mcp/
+scratch/
+tests/
+package-lock.json
+*.log

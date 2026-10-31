@@ -1,0 +1,111 @@
+{
+  "sourceUrl": "https://www.betrufit.com/",
+  "retrievedAt": "2026-10-30T16:57:30.000Z",
+  "stylesheetsRetrieved": [
+    {
+      "name": "index-DiEs5LC5.css",
+      "url": "https://www.betrufit.com/assets/index-DiEs5LC5.css",
+      "sizeBytes": 42104,
+      "purpose": "Primary site layout, navigation, hero, beyond, empower, bento grid, faq, squad, contact, footer"
+    },
+    {
+      "name": "coachPage-C4icQt-D.css",
+      "url": "https://www.betrufit.com/assets/coachPage-C4icQt-D.css",
+      "sizeBytes": 39496,
+      "purpose": "Coach cards, coach grid, level badges, attribute tags, bio text, pricing pill, arrow action buttons"
+    },
+    {
+      "name": "AboutPage-DNRl_ew1.css",
+      "url": "https://www.betrufit.com/assets/AboutPage-DNRl_ew1.css",
+      "sizeBytes": 16715,
+      "purpose": "Service/program cards, impact stat cards, promise cards, founder section"
+    },
+    {
+      "name": "findmycoach-bzkZ152B.css",
+      "url": "https://www.betrufit.com/assets/findmycoach-bzkZ152B.css",
+      "sizeBytes": 4874,
+      "purpose": "Interactive questionnaire, filter selection tags"
+    }
+  ],
+  "totalMergedCssBytes": 108087,
+  "assetsDownloaded": [
+    {
+      "filename": "hero_bg.webp",
+      "source": "https://www.betrufit.com/assets/hero-video-poster-BMcPOtly.webp",
+      "sizeBytes": 62838,
+      "usage": "Hero section background cover"
+    },
+    {
+      "filename": "bey-cover-Bi8oV6yG.webp",
+      "source": "https://www.betrufit.com/assets/bey-cover-Bi8oV6yG.webp",
+      "sizeBytes": 25732,
+      "usage": "About BWR section background card"
+    },
+    {
+      "filename": "emp-cover-BGgVzf6W.webp",
+      "source": "https://www.betrufit.com/assets/emp-cover-BGgVzf6W.webp",
+      "sizeBytes": 445796,
+      "usage": "Why Choose Us section background card"
+    },
+    {
+      "filename": "faq-cover-cFMBori5.webp",
+      "source": "https://www.betrufit.com/assets/faq-cover-cFMBori5.webp",
+      "sizeBytes": 19866,
+      "usage": "FAQ section background card"
+    },
+    {
+      "filename": "contact-cover-BOE1McQ3.webp",
+      "source": "https://www.betrufit.com/assets/contact-cover-BOE1McQ3.webp",
+      "sizeBytes": 518776,
+      "usage": "Form section background card"
+    },
+    {
+      "filename": "coach_pavan.webp",
+      "source": "https://betrufit.s3.ap-south-1.amazonaws.com/media/CoachProfile/Akshay_Profile_Photo_Zoomed_out_.webp",
+      "sizeBytes": 29614,
+      "usage": "Founder & Master Coach Pavan Teyari"
+    },
+    {
+      "filename": "coach_anand.webp",
+      "source": "https://betrufit.s3.ap-south-1.amazonaws.com/media/CoachProfile/image_2.webp",
+      "sizeBytes": 640738,
+      "usage": "Co-Founder & Coach Anand"
+    },
+    {
+      "filename": "coach_arun.webp",
+      "source": "https://betrufit.s3.ap-south-1.amazonaws.com/media/CoachProfile/coach-vrishanka.webp",
+      "sizeBytes": 511732,
+      "usage": "Senior Coach Arun Vishwa"
+    },
+    {
+      "filename": "coach_aleem.webp",
+      "source": "https://betrufit.s3.ap-south-1.amazonaws.com/media/CoachProfile/copy_50D68786-C43D-44E6-A6EC-4BE484162D47.webp",
+      "sizeBytes": 1031686,
+      "usage": "Transformation Coach Aleem"
+    }
+  ],
+  "designSystem": {
+    "colorPalette": {
+      "bodyBackground": "#efefef",
+      "primaryAccent": "#9c27ff",
+      "primaryDark": "#7e22ce",
+      "cardBackground": "#ffffff",
+      "frostedOverlay": "rgba(255, 255, 255, 0.65)",
+      "frostedNav": "rgba(30, 30, 30, 0.55)",
+      "textHeading": "#111111",
+      "textMuted": "#4b5563"
+    },
+    "typography": {
+      "primaryHeadings": "'Darker Grotesque', sans-serif (weights 700, 800, 900)",
+      "bodyText": "'Mulish', sans-serif (weights 400, 500, 600, 700)"
+    },
+    "signatureComponents": {
+      "navPill": ".nav__container (floating capsule, backdrop-filter blur 20px, border-radius 9999px)",
+      "redirectButton": ".redirect__btn (pill shape, Darker Grotesque, circular badge with inset arrow)",
+      "coachCard": ".coach__card (rounded 24px, photo top with badge, 3 tag capsules, bio, price bar, arrow trigger)",
+      "bentoGrid": ".pow__section (6 cards across 3 alternating row layouts: odd 1-2, even 3-4, odd 5-6)",
+      "faqAccordion": ".faq__que-sec (plus/minus toggle, smooth expanding answer drawer)",
+      "frostedFormCard": ".form__card (frosted glass container with rounded inputs and direct WhatsApp pre-fill)"
+    }
+  }
+}

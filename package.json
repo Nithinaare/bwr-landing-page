@@ -1,0 +1,13 @@
+{
+  "name": "bwr-landing-page",
+  "version": "1.0.0",
+  "description": "Built With Resilience - High Performance Athletic Landing Page",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "node tests/test-runner.js",
+    "build": "echo 'Production static site ready in root'"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
+  }
+}
