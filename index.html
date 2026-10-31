@@ -37,6 +37,9 @@
   <!-- Master Stylesheet -->
   <link rel="stylesheet" href="styles.css">
 
+  <!-- High-Priority LCP Hero Preload (modern-web-guidance: optimize-image-priority) -->
+  <link rel="preload" as="image" href="assets/bwr_official/program1.jpeg" fetchpriority="high">
+
   <!-- Schema.org JSON-LD Structured Data for Google Rich Snippets -->
   <script type="application/ld+json">
   {
@@ -74,7 +77,7 @@
     <div class="bwr-header-inner">
       <!-- Brand Logo -->
       <a href="#home" class="bwr-brand" aria-label="Built With Resilience Home">
-        <img src="assets/bwr_official/bwr_black.png" alt="Built With Resilience Logo" class="bwr-brand-logo">
+        <img src="assets/bwr_official/bwr_black.png" alt="Built With Resilience Logo" class="bwr-brand-logo" decoding="async">
       </a>
 
       <!-- Desktop Nav Links -->
@@ -110,7 +113,7 @@
     <div class="drawer-overlay" id="drawer-overlay"></div>
     <div class="drawer-content">
       <div class="drawer-header">
-        <img src="assets/bwr_official/bwr_black.png" alt="BWR Logo" class="drawer-logo">
+        <img src="assets/bwr_official/bwr_black.png" alt="BWR Logo" class="drawer-logo" loading="lazy" decoding="async">
         <button type="button" class="drawer-close-btn" id="drawer-close" aria-label="Close menu">&times;</button>
       </div>
       <nav class="drawer-nav">
@@ -160,19 +163,19 @@
       <div class="hero-stats-strip">
         <div class="hero-stats-row">
           <div class="hero-stat-item">
-            <span class="hero-stat-num">3,000+</span>
+            <span class="hero-stat-num" data-counter="3000" data-suffix="+">3,000+</span>
             <span class="hero-stat-label">Transformations</span>
           </div>
           <div class="hero-stat-item">
-            <span class="hero-stat-num">50+</span>
+            <span class="hero-stat-num" data-counter="50" data-suffix="+">50+</span>
             <span class="hero-stat-label">Certified Coaches</span>
           </div>
           <div class="hero-stat-item">
-            <span class="hero-stat-num">2018</span>
+            <span class="hero-stat-num" data-counter="2018" data-suffix="" data-start="2000">2018</span>
             <span class="hero-stat-label">Year Established</span>
           </div>
           <div class="hero-stat-item">
-            <span class="hero-stat-num">100%</span>
+            <span class="hero-stat-num" data-counter="100" data-suffix="%">100%</span>
             <span class="hero-stat-label">Tailored Blueprints</span>
           </div>
         </div>
@@ -194,15 +197,15 @@
 
         <div class="why-bento-grid">
           <!-- Pillar 1: Strength & Injury -->
-          <div class="why-card">
+          <div class="why-card reveal-on-scroll">
             <div class="why-card-img-wrap">
-              <img src="assets/bwr_official/about1.png" alt="Expert in Transformation & Injury Management" class="why-card-img" loading="lazy">
+              <img src="assets/bwr_official/about1.png" alt="Expert in Transformation & Injury Management" class="why-card-img" loading="lazy" decoding="async">
               <div class="why-card-floating-badge">8+ YEARS CLINICAL EXPERTISE</div>
             </div>
             <div class="why-content">
               <div class="why-icon-title-row">
                 <div class="why-icon-circle-mini">
-                  <img src="assets/bwr_official/strength.png" alt="Strength Icon" width="22" height="22">
+                  <img src="assets/bwr_official/strength.png" alt="Strength Icon" width="22" height="22" loading="lazy" decoding="async">
                 </div>
                 <h3 class="why-card-title">Expert In Transformation &amp; Injury Management</h3>
               </div>
@@ -211,15 +214,15 @@
           </div>
 
           <!-- Pillar 2: Custom Nutrition -->
-          <div class="why-card">
+          <div class="why-card reveal-on-scroll">
             <div class="why-card-img-wrap">
-              <img src="assets/generated/why_nutrition.jpg" alt="Custom Nutrition Plans" class="why-card-img" loading="lazy">
+              <img src="assets/generated/why_nutrition.jpg" alt="Custom Nutrition Plans" class="why-card-img" loading="lazy" decoding="async">
               <div class="why-card-floating-badge">FLEXIBLE &amp; SUSTAINABLE</div>
             </div>
             <div class="why-content">
               <div class="why-icon-title-row">
                 <div class="why-icon-circle-mini">
-                  <img src="assets/bwr_official/nutri.png" alt="Nutrition Icon" width="22" height="22">
+                  <img src="assets/bwr_official/nutri.png" alt="Nutrition Icon" width="22" height="22" loading="lazy" decoding="async">
                 </div>
                 <h3 class="why-card-title">Custom Nutrition Plans</h3>
               </div>
@@ -228,15 +231,15 @@
           </div>
 
           <!-- Pillar 3: App & Live Video -->
-          <div class="why-card">
+          <div class="why-card reveal-on-scroll">
             <div class="why-card-img-wrap">
-              <img src="assets/generated/why_app_training.jpg" alt="App-Based Programs & Live Video Training" class="why-card-img" loading="lazy">
+              <img src="assets/generated/why_app_training.jpg" alt="App-Based Programs & Live Video Training" class="why-card-img" loading="lazy" decoding="async">
               <div class="why-card-floating-badge">WORLDWIDE ACCESSIBILITY</div>
             </div>
             <div class="why-content">
               <div class="why-icon-title-row">
                 <div class="why-icon-circle-mini">
-                  <img src="assets/bwr_official/one-one.png" alt="Video Training Icon" width="22" height="22">
+                  <img src="assets/bwr_official/one-one.png" alt="Video Training Icon" width="22" height="22" loading="lazy" decoding="async">
                 </div>
                 <h3 class="why-card-title">App-Based Programs &amp; Live Video Training</h3>
               </div>
@@ -269,26 +272,26 @@
           <!-- Row 1 (Odd: 42% Col + 58% Row) -->
           <div class="pow__card-row row-odd">
             <!-- Card 1 (Column): Personalized Workout Plans -->
-            <div class="pow__card card-one">
+            <div class="pow__card card-one reveal-on-scroll">
               <div class="pow__card-text">
                 <span class="pow__card-tag">WORKOUTS</span>
                 <h3 class="pow__card-title">Personalized Workouts</h3>
                 <p class="pow__card-desc">Custom routines built for your equipment and goals.</p>
               </div>
               <div class="pow__card-img">
-                <img src="assets/app/bwr_app_1.webp" alt="Personalized Workouts App Screen" loading="lazy">
+                <img src="assets/app/bwr_app_1.webp" alt="Personalized Workouts App Screen" loading="lazy" decoding="async">
               </div>
             </div>
 
             <!-- Card 2 (Row): Daily Routine & Habit Tracking -->
-            <div class="pow__card card-two">
+            <div class="pow__card card-two reveal-on-scroll">
               <div class="pow__card-text">
                 <span class="pow__card-tag">HABITS</span>
                 <h3 class="pow__card-title">Daily Habit Tracking</h3>
                 <p class="pow__card-desc">Track hydration, sleep, steps, and daily consistency.</p>
               </div>
               <div class="pow__card-img">
-                <img src="assets/app/bwr_app_2.webp" alt="Daily Habit Tracking App Screen" loading="lazy">
+                <img src="assets/app/bwr_app_2.webp" alt="Daily Habit Tracking App Screen" loading="lazy" decoding="async">
               </div>
             </div>
           </div>
@@ -296,26 +299,26 @@
           <!-- Row 2 (Even: 58% Row-Reverse + 42% Col) -->
           <div class="pow__card-row row-even">
             <!-- Card 3 (Row-Reverse): Smart Nutrition & Meal Plans -->
-            <div class="pow__card card-one">
+            <div class="pow__card card-one reveal-on-scroll">
               <div class="pow__card-text">
                 <span class="pow__card-tag">NUTRITION</span>
                 <h3 class="pow__card-title">Smart Nutrition Plans</h3>
                 <p class="pow__card-desc">Log meals and hit targets designed for your lifestyle.</p>
               </div>
               <div class="pow__card-img">
-                <img src="assets/app/bwr_app_3.webp" alt="Smart Nutrition App Screen" loading="lazy">
+                <img src="assets/app/bwr_app_3.webp" alt="Smart Nutrition App Screen" loading="lazy" decoding="async">
               </div>
             </div>
 
             <!-- Card 4 (Column): Personalized Meals -->
-            <div class="pow__card card-two">
+            <div class="pow__card card-two reveal-on-scroll">
               <div class="pow__card-text">
                 <span class="pow__card-tag">MEAL PLANS</span>
                 <h3 class="pow__card-title">Flexible Meal Plans</h3>
                 <p class="pow__card-desc">Sustainable swap lists with zero extreme restrictions.</p>
               </div>
               <div class="pow__card-img">
-                <img src="assets/app/bwr_app_4.webp" alt="Flexible Meal Plans App Screen" loading="lazy">
+                <img src="assets/app/bwr_app_4.webp" alt="Flexible Meal Plans App Screen" loading="lazy" decoding="async">
               </div>
             </div>
           </div>
@@ -323,26 +326,26 @@
           <!-- Row 3 (Odd: 42% Col + 58% Row) -->
           <div class="pow__card-row row-odd">
             <!-- Card 5 (Column): Personalized Workouts -->
-            <div class="pow__card card-one">
+            <div class="pow__card card-one reveal-on-scroll">
               <div class="pow__card-text">
                 <span class="pow__card-tag">PROGRESSION</span>
                 <h3 class="pow__card-title">Strength Progression</h3>
                 <p class="pow__card-desc">Structured overload curves to build real, lasting strength.</p>
               </div>
               <div class="pow__card-img">
-                <img src="assets/app/bwr_app_5.webp" alt="Strength Progression App Screen" loading="lazy">
+                <img src="assets/app/bwr_app_5.webp" alt="Strength Progression App Screen" loading="lazy" decoding="async">
               </div>
             </div>
 
             <!-- Card 6 (Row): Progress Tracker & Analytics -->
-            <div class="pow__card card-two">
+            <div class="pow__card card-two reveal-on-scroll">
               <div class="pow__card-text">
                 <span class="pow__card-tag">ANALYTICS</span>
                 <h3 class="pow__card-title">Progress &amp; Analytics</h3>
                 <p class="pow__card-desc">Visualize body composition and performance metrics.</p>
               </div>
               <div class="pow__card-img">
-                <img src="assets/app/bwr_app_6.webp" alt="Progress & Analytics App Screen" loading="lazy">
+                <img src="assets/app/bwr_app_6.webp" alt="Progress & Analytics App Screen" loading="lazy" decoding="async">
               </div>
             </div>
           </div>
@@ -364,9 +367,9 @@
 
         <div class="programs-grid">
           <!-- Program 1 -->
-          <div class="program-card">
+          <div class="program-card reveal-on-scroll">
             <div class="program-img-wrap">
-              <img src="assets/bwr_official/program1.jpeg" alt="Online Fitness Coaching" class="program-img" loading="lazy">
+              <img src="assets/bwr_official/program1.jpeg" alt="Online Fitness Coaching" class="program-img" loading="lazy" decoding="async">
               <span class="program-category">Online / Remote</span>
             </div>
             <div class="program-body">
@@ -380,9 +383,9 @@
           </div>
 
           <!-- Program 2 -->
-          <div class="program-card">
+          <div class="program-card reveal-on-scroll">
             <div class="program-img-wrap">
-              <img src="assets/bwr_official/about_wide.jpg" alt="1-1 In-Person Personal Training" class="program-img" loading="lazy">
+              <img src="assets/bwr_official/about_wide.jpg" alt="1-1 In-Person Personal Training" class="program-img" loading="lazy" decoding="async">
               <span class="program-category">In-Person</span>
             </div>
             <div class="program-body">
@@ -398,7 +401,7 @@
           <!-- Program 3 -->
           <div class="program-card" style="display: none;" aria-hidden="true">
             <div class="program-img-wrap">
-              <img src="assets/bwr_official/program3.png" alt="Clinical & Sports Nutrition Consulting" class="program-img" loading="lazy">
+              <img src="assets/bwr_official/program3.png" alt="Clinical & Sports Nutrition Consulting" class="program-img" loading="lazy" decoding="async">
               <span class="program-category">Nutrition</span>
             </div>
             <div class="program-body">
@@ -412,9 +415,9 @@
           </div>
 
           <!-- Program 4 -->
-          <div class="program-card">
+          <div class="program-card reveal-on-scroll">
             <div class="program-img-wrap">
-              <img src="assets/bwr_official/program4.png" alt="Corporate Team Wellness" class="program-img" loading="lazy">
+              <img src="assets/bwr_official/program4.png" alt="Corporate Team Wellness" class="program-img" loading="lazy" decoding="async">
               <span class="program-category">Corporate</span>
             </div>
             <div class="program-body">
@@ -428,9 +431,9 @@
           </div>
 
           <!-- Program 5 -->
-          <div class="program-card">
+          <div class="program-card reveal-on-scroll">
             <div class="program-img-wrap">
-              <img src="assets/bwr_official/program5.png" alt="App Based Self-Paced Fitness Programs" class="program-img" loading="lazy">
+              <img src="assets/bwr_official/program5.png" alt="App Based Self-Paced Fitness Programs" class="program-img" loading="lazy" decoding="async">
               <span class="program-category">Self-Paced</span>
             </div>
             <div class="program-body">
@@ -461,9 +464,9 @@
 
         <div class="coaches-grid">
           <!-- Coach 1: Pavan Teyari -->
-          <div class="coach-card">
+          <div class="coach-card reveal-on-scroll">
             <div class="coach-photo-wrap">
-              <img src="assets/bwr_official/coach_pavan_real.jpg" alt="Pavan Teyari - Founder & Master Coach" class="coach-photo pavan-photo" loading="lazy">
+              <img src="assets/bwr_official/coach_pavan_real.jpg" alt="Pavan Teyari - Founder & Master Coach" class="coach-photo pavan-photo" loading="lazy" decoding="async">
               <div class="coach-role-pill founder-pill">Founder &amp; Master Coach</div>
             </div>
             <div class="coach-body">
@@ -487,9 +490,9 @@
           </div>
 
           <!-- Coach 2: Anand -->
-          <div class="coach-card">
+          <div class="coach-card reveal-on-scroll">
             <div class="coach-photo-wrap">
-              <img src="assets/bwr_official/coach_anand_real.jpeg" alt="Anand - Co-Founder & Coach" class="coach-photo" loading="lazy">
+              <img src="assets/bwr_official/coach_anand_real.jpeg" alt="Anand - Co-Founder & Coach" class="coach-photo" loading="lazy" decoding="async">
               <div class="coach-role-pill cofounder-pill">Co-Founder &amp; Coach</div>
             </div>
             <div class="coach-body">
@@ -513,9 +516,9 @@
           </div>
 
           <!-- Coach 3: Arun Vishwa -->
-          <div class="coach-card">
+          <div class="coach-card reveal-on-scroll">
             <div class="coach-photo-wrap">
-              <img src="assets/bwr_official/coach_arun_real.jpg" alt="Arun Vishwa - Senior Coach" class="coach-photo" loading="lazy">
+              <img src="assets/bwr_official/coach_arun_real.jpg" alt="Arun Vishwa - Senior Coach" class="coach-photo" loading="lazy" decoding="async">
               <div class="coach-role-pill coach-pill">Coach</div>
             </div>
             <div class="coach-body">
@@ -539,9 +542,9 @@
           </div>
 
           <!-- Coach 4: Aleem -->
-          <div class="coach-card">
+          <div class="coach-card reveal-on-scroll">
             <div class="coach-photo-wrap">
-              <img src="assets/bwr_official/coach_aleem_real.png" alt="Aleem - Transformation Coach" class="coach-photo" loading="lazy">
+              <img src="assets/bwr_official/coach_aleem_real.png" alt="Aleem - Transformation Coach" class="coach-photo" loading="lazy" decoding="async">
               <div class="coach-role-pill coach-pill">Coach</div>
             </div>
             <div class="coach-body">
@@ -827,7 +830,7 @@
     <div class="footer-container">
       <div class="footer-top">
         <div class="footer-brand-col">
-          <img src="assets/bwr_official/bwr_white.png" alt="Built With Resilience White Logo" class="footer-logo">
+          <img src="assets/bwr_official/bwr_white.png" alt="Built With Resilience White Logo" class="footer-logo" loading="lazy" decoding="async">
           <p class="footer-tagline">Elevate your wellness with customized strategies that strengthen both body and mind. 50+ master trainers and 3,000+ transformations worldwide since 2018.</p>
           <div class="footer-badges">
             <span class="footer-badge">⚡ Est. 2018</span>
@@ -1052,6 +1055,83 @@
           form.reset();
         }, 800);
       });
+    }
+
+    // ============================================================
+    // ATHLETIC FITNESS MICRO-ANIMATIONS & INTERSECTION CONTROLLERS
+    // ============================================================
+
+    // 1. Kinetic Metric Counters ("Proof of Transformation")
+    const statCounters = document.querySelectorAll('.hero-stat-num[data-counter]');
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (statCounters.length > 0 && !prefersReducedMotion) {
+      let animated = false;
+      function animateCounters() {
+        if (animated) return;
+        animated = true;
+
+        statCounters.forEach(counter => {
+          const target = parseInt(counter.getAttribute('data-counter'), 10);
+          const startVal = parseInt(counter.getAttribute('data-start') || '0', 10);
+          const suffix = counter.getAttribute('data-suffix') || '';
+          const duration = 1200; // ms
+          const startTime = performance.now();
+
+          function update(currentTime) {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            // Ease-out cubic curve for athletic deceleration
+            const easeOut = 1 - Math.pow(1 - progress, 3);
+            const current = Math.round(startVal + (target - startVal) * easeOut);
+            counter.textContent = current.toLocaleString() + suffix;
+
+            if (progress < 1) {
+              requestAnimationFrame(update);
+            } else {
+              counter.textContent = target.toLocaleString() + suffix;
+            }
+          }
+
+          requestAnimationFrame(update);
+        });
+      }
+
+      const statsStrip = document.querySelector('.hero-stats-strip');
+      if (statsStrip && 'IntersectionObserver' in window) {
+        const statsObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              animateCounters();
+              statsObserver.disconnect();
+            }
+          });
+        }, { threshold: 0.2 });
+        statsObserver.observe(statsStrip);
+      } else {
+        animateCounters();
+      }
+    }
+
+    // 2. Athletic Staggered Scroll Reveals ("Progressive Repetition")
+    const revealElements = document.querySelectorAll('.reveal-on-scroll');
+    if (revealElements.length > 0 && !prefersReducedMotion && 'IntersectionObserver' in window) {
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-revealed');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.12,
+        rootMargin: '0px 0px -40px 0px'
+      });
+
+      revealElements.forEach(el => revealObserver.observe(el));
+    } else {
+      // Fallback or reduced motion: make all visible immediately
+      revealElements.forEach(el => el.classList.add('is-revealed'));
     }
   });
   </script>

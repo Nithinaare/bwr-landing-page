@@ -2155,3 +2155,141 @@ img {
     transition: opacity 0.25s ease, transform 0.25s ease;
   }
 }
+
+
+/* ============================================================
+   PERFORMANCE: CONTENT VISIBILITY OPTIMIZATION
+   (modern-web-guidance: skip offscreen section rendering)
+   ============================================================ */
+#why-us,
+#app,
+#trainings,
+#coaches,
+#reviews,
+#faq {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 700px;
+}
+
+/* ============================================================
+   ATHLETIC FITNESS MICRO-ANIMATIONS (POV OF FITNESS)
+   ============================================================ */
+
+/* 1. Kinetic Scroll Reveal (Progressive Repetition Rhythm) */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Fluid Staggered Entrance Delays (Simulating Exercise Rep Cadence) */
+.why-card:nth-child(2).reveal-on-scroll { transition-delay: 80ms; }
+.why-card:nth-child(3).reveal-on-scroll { transition-delay: 160ms; }
+
+.pow__card:nth-child(2).reveal-on-scroll { transition-delay: 70ms; }
+.pow__card:nth-child(3).reveal-on-scroll { transition-delay: 140ms; }
+.pow__card:nth-child(4).reveal-on-scroll { transition-delay: 210ms; }
+.pow__card:nth-child(5).reveal-on-scroll { transition-delay: 280ms; }
+.pow__card:nth-child(6).reveal-on-scroll { transition-delay: 350ms; }
+
+.program-card:nth-child(2).reveal-on-scroll { transition-delay: 70ms; }
+.program-card:nth-child(3).reveal-on-scroll { transition-delay: 140ms; }
+.program-card:nth-child(4).reveal-on-scroll { transition-delay: 210ms; }
+.program-card:nth-child(5).reveal-on-scroll { transition-delay: 280ms; }
+
+.coach-card:nth-child(2).reveal-on-scroll { transition-delay: 80ms; }
+.coach-card:nth-child(3).reveal-on-scroll { transition-delay: 160ms; }
+.coach-card:nth-child(4).reveal-on-scroll { transition-delay: 240ms; }
+
+/* 2. Athletic Image Transitions & Bento Elevate */
+.why-card-img,
+.program-img,
+.coach-photo,
+.pow__card-img {
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.why-card:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.08) !important;
+}
+
+.why-card:hover .why-card-img {
+  transform: scale(1.03);
+}
+
+.program-card:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.08) !important;
+}
+
+.program-card:hover .program-img {
+  transform: scale(1.03);
+}
+
+.coach-card:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.08) !important;
+}
+
+.coach-card:hover .coach-photo {
+  transform: scale(1.03);
+}
+
+.pow__card:hover .pow__card-img {
+  transform: translateY(-8px) scale(1.015);
+}
+
+/* 3. Cardiac Vitality Pulse (Heartbeat & Energy Aura on Primary CTAs) */
+@keyframes bwr-cardiac-glow {
+  0%, 100% {
+    box-shadow: 0 6px 22px rgba(124, 58, 237, 0.45);
+  }
+  50% {
+    box-shadow: 0 8px 32px rgba(168, 85, 247, 0.75);
+  }
+}
+
+.mobile-transform-btn {
+  animation: bwr-cardiac-glow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes hero-pill-pulse {
+  0%, 100% {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  }
+  50% {
+    box-shadow: 0 10px 32px rgba(124, 58, 237, 0.38);
+  }
+}
+
+.hero-pill-btn {
+  animation: hero-pill-pulse 3.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* ============================================================
+   ACCESSIBILITY: RESPECT REDUCED MOTION PREFERENCE
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal-on-scroll {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .mobile-transform-btn,
+  .hero-pill-btn {
+    animation: none !important;
+  }
+}
